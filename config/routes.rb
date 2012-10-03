@@ -1,5 +1,15 @@
 VoiceConcierge::Application.routes.draw do
 
+  get "pages/home"
+
+  get "pages/howitworks"
+
+  get "pages/setpatient"
+
+  get "pages/setdoctor"
+
+  get "pages/patientview"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
