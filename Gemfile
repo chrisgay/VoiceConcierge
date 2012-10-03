@@ -6,7 +6,8 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-gem 'sqlite3', :reguire => 'sqlite3' 
+gem 'sqlite3', :reguire => 'sqlite3'
+end                                  
 
 
 # Gems used only for assets and not required
